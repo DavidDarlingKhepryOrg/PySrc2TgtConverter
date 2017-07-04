@@ -45,7 +45,7 @@ arg_parser.add_argument('--src_col_delimiter',
 arg_parser.add_argument('--src_col_quotechar',
                         type=str,
                         default='"',
-                        help='source column quotechar')
+                        help='source quoting character')
 
 arg_parser.add_argument('--tgt_path',
                         type=str,
@@ -62,7 +62,7 @@ arg_parser.add_argument('--tgt_col_delimiter',
 arg_parser.add_argument('--tgt_col_quotechar',
                         type=str,
                         default='"',
-                        help='target column quotechar')
+                        help='target quoting character')
 
 arg_parser.add_argument('--break_after_first_file',
                         type=bool,
